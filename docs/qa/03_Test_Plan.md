@@ -7,6 +7,7 @@ This document defines the **detailed QA Test Plan** for the CleanCity Waste Pick
 ## 2. Scope
 
 **In Scope:**  
+
 - Authentication & Authorization  
 - Waste Pickup Scheduling & Management  
 - Notifications & Community Module  

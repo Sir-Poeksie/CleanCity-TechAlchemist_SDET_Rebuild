@@ -1,0 +1,50 @@
+# Commit Message Template — CleanCity Group 15
+# Version: 2.0 | Effective: 2025-11-06
+# CCR Format: CCR-###
+#
+# Format:
+# <type>(<scope>): <message> (CCR-###)
+#
+# Examples:
+# feat(auth): implement JWT authentication (CCR-010)
+# fix(ui): correct dashboard filter state reset (CCR-011)
+# docs(governance): add QA Governance Policy (CCR-002)
+# test(e2e): update pickup scheduling tests (CCR-021)
+#
+# -------------------------------------------------------
+# Commit Types
+# -------------------------------------------------------
+# feat:     New feature
+# fix:      Bug fix
+# docs:     Documentation only changes
+# test:     Adding or updating tests
+# refactor: Code change that neither fixes a bug nor adds a feature
+# qa:       QA improvement or audit fix
+# ci:       Changes to CI/CD configuration or scripts
+# chore:    Maintenance, dependencies, or tooling
+#
+# -------------------------------------------------------
+# Scope Examples (use component/module name)
+# -------------------------------------------------------
+# auth | dashboard | feedback | governance | migration | e2e | qa | docs
+#
+# -------------------------------------------------------
+# Guidelines:
+# - Reference one or more Functional Requirement IDs if applicable (FR-###)
+# - Keep subject line under 72 characters
+# - Use present tense (“add”, “fix”, not “added”, “fixed”)
+# - Leave the body blank or add details below after a blank line
+#
+# Example Full Commit:
+#
+# docs(migration): add CleanCity migration mapping for repo restructure (CCR-003)
+#
+# - Maps each test and document to enterprise repo structure
+# - Linked to FR-014, FR-021
+#
+# -------------------------------------------------------
+# Subject line (one line summary):
+#
+#
+# Commit body (optional, details or references):
+#

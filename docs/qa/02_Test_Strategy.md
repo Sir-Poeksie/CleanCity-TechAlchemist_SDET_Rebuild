@@ -1,9 +1,16 @@
 # CleanCity Waste Pickup Scheduler – QA Test Strategy
 
+**Project:** CleanCity - Waste Pickup Scheduler  
+**Version:** 2.0  
+**Author:** Mpumelelo Theophilas Nxazonke [Sir-Poeksie]  
+**Date:** 2025-11-06  
+
 ## 1. Overview
+
 The Test Strategy defines **how testing will be executed for the project** to ensure quality, reliability, and performance. This strategy aligns with the Test Policy and maps testing activities to functional and non-functional requirements.
 
 ## 2. Testing Objectives
+
 - Validate that all **functional requirements (FR-001 to FR-087)** are implemented correctly.  
 - Ensure **system reliability, performance, security, and accessibility**.  
 - Provide **defect prevention insights** through automation and early testing.  
