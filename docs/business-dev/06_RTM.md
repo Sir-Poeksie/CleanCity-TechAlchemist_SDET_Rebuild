@@ -8,34 +8,33 @@ CleanCity Waste Pickup Scheduler **full Requirements Traceability Matrix (RTM)**
 * **Module / Epic mapping**
 * **Priority & Status** (ready for Jira or QA tracking)
 
-
 | FR ID  | Requirement Description | Epic ID | User Story ID | Test Case ID | Module | Priority | Status  |
 | ------ | -------------------------------------------- | ------- | ------------- | ------------ | -------------------- | -------- | ------- |
-| FR-001 | User registration                            | EP-001  | US-001        | TC-001       | Authentication       | High     | Pending |
-| FR-002 | Registration form validation                 | EP-001  | US-001        | TC-002       | Authentication       | High     | Pending |
-| FR-003 | Assign default role on registration          | EP-001  | US-001        | TC-003       | Authentication       | High     | Pending |
-| FR-004 | User login & session                         | EP-001  | US-002        | TC-004       | Authentication       | High     | Pending |
-| FR-005 | Display login errors                         | EP-001  | US-002        | TC-005       | Authentication       | High     | Pending |
-| FR-006 | Session persistence                          | EP-001  | US-002        | TC-006       | Authentication       | High     | Pending |
-| FR-007 | Redirect after login                         | EP-001  | US-002        | TC-007       | Authentication       | High     | Pending |
-| FR-008 | Logout functionality                         | EP-001  | US-002        | TC-008       | Authentication       | High     | Pending |
-| FR-009 | Role-based access control                    | EP-001  | US-004        | TC-009       | Authentication       | High     | Pending |
-| FR-010 | Restrict unauthorized access                 | EP-001  | US-004        | TC-010       | Authentication       | High     | Pending |
-| FR-011 | Password reset                               | EP-001  | US-003        | TC-011       | Authentication       | Medium   | Pending |
-| FR-012 | Schedule pickup (date/type/quantity/address) | EP-002  | US-008        | TC-012       | Waste Pickup         | High     | Pending |
-| FR-013 | Minimum 24h notice validation                | EP-002  | US-008        | TC-013       | Waste Pickup         | High     | Pending |
-| FR-014 | Real-time slot availability                  | EP-002  | US-008        | TC-014       | Waste Pickup         | High     | Pending |
-| FR-015 | Prevent duplicate pickups                    | EP-002  | US-008        | TC-015       | Waste Pickup         | High     | Pending |
-| FR-016 | View pickup history                          | EP-002  | US-009        | TC-016       | Waste Pickup         | Medium   | Pending |
-| FR-017 | Cancel pending pickups                       | EP-002  | US-010        | TC-017       | Waste Pickup         | High     | Pending |
-| FR-018 | Modify pickups in advance                    | EP-002  | US-010        | TC-018       | Waste Pickup         | High     | Pending |
-| FR-019 | View past pickups                            | EP-002  | US-009        | TC-019       | Waste Pickup         | Medium   | Pending |
-| FR-021 | Notify user on pickup status                 | EP-003  | US-013        | TC-021       | Notifications        | Medium   | Pending |
-| FR-022 | Post-pickup feedback submission              | EP-002  | US-011        | TC-022       | Waste Pickup         | Medium   | Pending |
-| FR-023 | User dashboard stats                         | EP-004  | US-017        | TC-023       | Dashboard            | High     | Pending |
-| FR-024 | Pickup summary                               | EP-004  | US-017        | TC-024       | Dashboard            | High     | Pending |
-| FR-025 | Visual metrics                               | EP-004  | US-017        | TC-025       | Dashboard            | High     | Pending |
-| FR-026 | Gamification – points                        | EP-004  | US-018        | TC-026       | Dashboard            | Medium   | Pending |
+| FR-001 | User registration | EP-001 | US-001 | TC-001 | Authentication | High | Pending |
+| FR-002 | Registration form validation | EP-001 | US-001 | TC-002 | Authentication | High | Pending |
+| FR-003 | Assign default role on registration | EP-001 | US-001 | TC-003 | Authentication | High | Pending |
+| FR-004 | User login & session | EP-001 | US-002 | TC-004 | Authentication | High | Pending |
+| FR-005 | Display login errors | EP-001 | US-002 | TC-005 | Authentication | High | Pending |
+| FR-006 | Session persistence | EP-001  | US-002 | TC-006 | Authentication | High | Pending |
+| FR-007 | Redirect after login | EP-001  | US-002 | TC-007 | Authentication | High | Pending |
+| FR-008 | Logout functionality | EP-001 | US-002 | TC-008 | Authentication | High | Pending |
+| FR-009 | Role-based access control | EP-001 | US-004 | TC-009 | Authentication | High | Pending |
+| FR-010 | Restrict unauthorized access | EP-001 | US-004 | TC-010 | Authentication | High | Pending |
+| FR-011 | Password reset | EP-001  | US-003 | TC-011 | Authentication | Medium | Pending |
+| FR-012 | Schedule pickup (date/type/quantity/address) | EP-002 | US-008 | TC-012 | Waste Pickup | High | Pending |
+| FR-013 | Minimum 24h notice validation | EP-002 | US-008 | TC-013 | Waste Pickup | High | Pending |
+| FR-014 | Real-time slot availability | EP-002 | US-008 | TC-014 | Waste Pickup | High | Pending |
+| FR-015 | Prevent duplicate pickups | EP-002 | US-008 | TC-015 | Waste Pickup | High | Pending |
+| FR-016 | View pickup history | EP-002 | US-009 | TC-016 | Waste Pickup | Medium | Pending |
+| FR-017 | Cancel pending pickups | EP-002 | US-010 | TC-017 | Waste Pickup | High | Pending |
+| FR-018 | Modify pickups in advance | EP-002 | US-010 | TC-018 | Waste Pickup | High | Pending |
+| FR-019 | View past pickups | EP-002  | US-009 | TC-019 | Waste Pickup | Medium | Pending |
+| FR-021 | Notify user on pickup status | EP-003 | US-013 | TC-021 | Notifications | Medium | Pending |
+| FR-022 | Post-pickup feedback submission | EP-002 | US-011 | TC-022 | Waste Pickup | Medium | Pending |
+| FR-023 | User dashboard stats | EP-004 | US-017 | TC-023 | Dashboard | High | Pending |
+| FR-024 | Pickup summary | EP-004 | US-017 | TC-024 | Dashboard            | High | Pending |
+| FR-025 | Visual metrics | EP-004  | US-017 | TC-025 | Dashboard            | High | Pending |
+| FR-026 | Gamification – points | EP-004  | US-018 | TC-026 | Dashboard            | Medium   | Pending |
 | FR-027 | Gamification – badges                        | EP-004  | US-018        | TC-027       | Dashboard            | Medium   | Pending |
 | FR-028 | Community posts                              | EP-005  | US-021        | TC-028       | Community            | Medium   | Pending |
 | FR-029 | Commenting & liking posts                    | EP-005  | US-022        | TC-029       | Community            | Medium   | Pending |

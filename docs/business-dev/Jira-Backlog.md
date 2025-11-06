@@ -9,15 +9,15 @@
 **Epic ID:** EP-001
 **Description:** All features related to user account management, authentication, roles, and security compliance.
 
-| Story ID | User Story                                                                                                         | Module         | Priority | Linked FRs                             |
-| -------- | ------------------------------------------------------------------------------------------------------------------ | -------------- | -------- | -------------------------------------- |
-| US-001   | As a user, I want to register an account so that I can use the platform                                            | Authentication | High     | FR-001, FR-002, FR-003, FR-070         |
-| US-002   | As a user, I want to log in and maintain session so that I can access my data securely                             | Authentication | High     | FR-004, FR-005, FR-006, FR-007, FR-008 |
-| US-003   | As a user, I want to reset my password securely                                                                    | Authentication | Medium   | FR-011, FR-077                         |
-| US-004   | As an admin, I want to manage roles and restrict access so that unauthorized users cannot access sensitive modules | Authentication | High     | FR-009, FR-010, FR-084                 |
-| US-005   | As a user, I want to accept terms & conditions and privacy policy                                                  | Authentication | High     | FR-085                                 |
-| US-006   | As a system, I want GDPR-compliant data storage and allow users to delete accounts                                 | Security       | High     | FR-075, FR-076                         |
-| US-007   | As a system, I want secure API endpoints and rate-limiting                                                         | Security       | High     | FR-061, FR-062                         |
+| Story ID | User Story | Module | Priority | Linked FRs |
+| -------- | ---------- | ------ | -------- | ---------- |
+| US-001   | As a user, I want to register an account so that I can use the platform | Authentication | High | FR-001, FR-002, FR-003, FR-070 |
+| US-002   | As a user, I want to log in and maintain session so that I can access my data securely | Authentication | High     | FR-004, FR-005, FR-006, FR-007, FR-008 |
+| US-003   | As a user, I want to reset my password securely | Authentication | Medium   | FR-011, FR-077 |
+| US-004   | As an admin, I want to manage roles and restrict access so that unauthorized users cannot access sensitive modules | Authentication | High | FR-009, FR-010, FR-084 |
+| US-005   | As a user, I want to accept terms & conditions and privacy policy | Authentication | High | FR-085 |
+| US-006   | As a system, I want GDPR-compliant data storage and allow users to delete accounts | Security | High | FR-075, FR-076 |
+| US-007   | As a system, I want secure API endpoints and rate-limiting | Security | High | FR-061, FR-062 |
 
 **Sub-tasks for US-001:**
 
