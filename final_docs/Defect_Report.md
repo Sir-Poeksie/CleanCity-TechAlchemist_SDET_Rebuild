@@ -39,10 +39,10 @@ Each defect is categorized by severity, impacted module, and testing tool. This 
 | BUG-001 | Login form error alert not rendered | Login | High | Open | [#BUG-001](#) |
 | BUG-002 | `PickupForm` component not found | PickupForm | High | Open | [#BUG-002](#) |
 | BUG-003 | Missing requestId input & validation | Feedback Form | High | Open | [#BUG-003](#) |
-| BUG-004 | Dashboard filters not found | Dashboard | Medium | Open | [#BUG-004](#) |
+| BUG-004 | Dashboard filters missing, preventing data filtering | Dashboard | Medium | Open | [#BUG-004](#) |
 | BUG-005 | Awareness cards and images missing | Awareness | Medium | Open | [#BUG-005](#) |
 | BUG-006 | Profile doesn’t redirect unauthenticated user | Auth/Profile | High | Open | [#BUG-006](#) |
-| BUG-007 | Schedule pickup inputs missing | PickupForm | High | Open | [#BUG-007](#) |
+| BUG-007 | Pickup form inputs not rendered, blocking request submission | PickupForm | High | Open | [#BUG-007](#) |
 | BUG-008 | Module not found: `index.test.js` | App | High | Open | [#BUG-008](#) |
 | BUG-009 | Nested `<form>` warning in BlogAdmin | BlogEditor | Low | Open | [#BUG-009](#) |
 
